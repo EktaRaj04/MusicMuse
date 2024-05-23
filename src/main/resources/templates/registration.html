@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<link rel="stylesheet" type="text/css" href="registration.css">
+
+</head>
+
+<body>
+<div class="container">
+
+<form action="/register" method="post">
+<h2>New User? Register Now!</h2>
+
+
+<div class="input-field">
+<input type="text" name="username" placeholder="Username" required/>
+<i class="fa-solid fa-user"></i></div>
+<br/><br/>
+
+<div class="input-field">
+<input type="email" name="email" placeholder="Enter your email"required/>
+<i class="fa-solid fa-envelope"></i></div>
+<br/><br/>
+
+<div class="input-field">
+<input type="password" name="password" placeholder="Enter your password" required/>
+<i class="fa-solid fa-lock"></i>
+</div>
+<br/><br/>
+
+<div class="input-radio">
+<label class="add1">Gender</label>
+<input type="radio" value="male" name="gender"/>
+<label class="add1">Male</label>
+<input type="radio" value ="female" name="gender"/>
+<label class="add1">Female</label>
+<input type="radio" value ="other" name="gender"/>
+<label class="add1">Other</label>
+<br><br>
+
+<label class="add2">Role</label>
+<input type="radio" value="admin" name="role"/>
+<label class="add2">Admin</label>
+<input type="radio" value="customer" name="role"/>
+<label class="add2">Customer</label>
+<br><br>
+
+<label class="add3">Address</label>
+<textarea name="address" ></textarea>
+</div>
+
+<br><br>
+
+<input type="submit" class="btn" value="SUBMIT"/>
+
+</form>
+</div>
+</body>
+</html>

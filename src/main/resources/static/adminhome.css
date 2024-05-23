@@ -1,0 +1,64 @@
+ *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url("guitarbg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+ 
+    
+.container{
+	width:500px;
+	margin: 5vh 0 0 15vw;
+	background: transparent;
+	border:2px solid rgba(255 255 255 .5);
+	backdrop-filter:blur(20px);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+	border-radius:5px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+	
+}
+    .action-box {
+        flex: 0 1 45%;
+        margin-bottom: 50px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:9px;
+        background-color: #ffb399;
+    }
+    .action-box form {
+        width: 100%;
+        text-align: center;
+    }
+    input[type="submit"].btn {
+    width: 150px; 
+    height: 45px; 
+    background-color: #fff2cc; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"].btn:hover {
+    background-color:#cccccc; 
+}
+
+    
+    

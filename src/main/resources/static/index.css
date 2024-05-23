@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url("guitarbg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+/* .container{
+	width:450px;
+	margin: 10vh 0 0 10vw;
+	background: rgba(255, 255, 255, 0.1);
+	background: transparent;
+	border:2px solid rgba(255 255 255 .5);
+	backdrop-filter:blur(20px);
+	box-shadow:0 0 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+	border-radius:10px;
+	padding:30px 40px;
+	
+} */
+.container {
+  margin: 10vh 0 0 15vw;
+  width:660px;
+  display: flex;
+  height: 500px;
+  margin-top: 5px;
+  	box-shadow:0 0 10px rgba(0, 0, 0, .5);
+  
+  
+  
+}
+
+.image-container, .content-container {
+	width: 50%;
+}
+
+.image-container {
+  
+   background-color: white;
+    background: url("musicmuse green.png") center/cover no-repeat;
+}
+
+.content-container {
+  padding: 20px;
+/*   background-color: rgba(255, 255, 255, 0.8); */ 
+ background-color: #FFE6D0;
+  text-align: center; /* Align text content to center */
+}
+.container h3{
+	font-size: 20px;
+	text-align: center;
+	background-color: pink;
+}
+p1{
+    text-align: left; /* Align text within <pre> tag to left */
+}
+.text {
+  margin-bottom: 10px;
+}
+
+.button-form {
+  margin-bottom: 10px;
+}
+
+.registrationbutton,
+.loginbutton {
+  background-color: #FFCCCC;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+   padding: 5px 30px;
+   font-size: larger;
+}
+
+.registrationbutton:hover,
+.loginbutton:hover {
+  background-color: #fff;
+}
+.content-container p#p1 {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+.button-form {
+    margin-bottom: 5px; /* Increased spacing between buttons */
+}

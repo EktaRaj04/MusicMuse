@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+
+
+<body>
+<div class="container">
+
+<form action="/validate" method="post">
+<h2>Login to your MusicMuse Account</h2>
+
+<div class="input-field">
+
+<input type="email" name="email" placeholder="Enter your email" required/>
+<i class="fa-solid fa-envelope"></i>
+</div>
+<br/><br/>
+
+<div class="input-field">
+<input type="password" name="password" placeholder="Enter your password" required>
+<i class="fa-solid fa-lock"></i></div>
+
+<div class="remember-me">
+<label><input type="checkbox">Remember me</label>
+<a href="#">Forgot password?</a>
+</div>
+<br>
+
+<input type="submit" class="btn" value="LOGIN"/>
+<div class="register-link">
+<p>Don't have an account? <a href="#">Register</a></p>
+</div>
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url("guitarbg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+	width:650px;
+	margin: 2vh 0 0 15vw;
+	background: rgba(255, 255, 255, 0.1);	
+}
+
+.upper-container {
+    width: 100%;
+    height: 50%;
+    
+}
+.lower-container {
+ width: 100%;
+ height: 50%; 
+ padding: 10px;
+ 
+}
+.img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.btn1, .btn2{
+    padding: 10px 10px;
+    background-color: #fff2cc;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: pink;
+}
+.btn2:hover {
+    background-color: pink;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid black; 
+    border-right: 1px solid black; 
+}
+
+th {
+    background-color: pink;
+    border-right: 1px solid black;
+}
+
+audio {
+    vertical-align: middle;
+    background-color:teal;
+}
+
+
+tr:hover {
+    background-color: #ebfaf9;
+}
+
+
+td:last-child, th:last-child {
+    border-right: none;
+}
+
+
+
+
+
+
+
+

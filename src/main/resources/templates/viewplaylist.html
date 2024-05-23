@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Playlists</title>
+    <link rel="stylesheet" type="text/css" href="viewplaylist.css">
+</head>
+<body>
+<div class="container">
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Songs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="playlist:${playlists}">
+      <td th:text="${playlist.name}"></td>
+      <td colspan="2"> <!-- Use colspan="2" to span two columns -->
+        <table> <!-- Nested table for two columns -->
+          <tr th:each="song:${playlist.songs}">
+            <td><span th:text="${song.name}"></span></td> <!-- First column for song name -->
+            <td><audio controls th:src="${song.link}"></audio></td> <!-- Second column for audio controls -->
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
